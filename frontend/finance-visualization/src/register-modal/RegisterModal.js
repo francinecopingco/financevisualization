@@ -3,18 +3,20 @@ import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import './RegisterModal.css'
+import {default as unicorn} from '../images/unicorn.svg'
 
 
 function openRegisterModal() {
 
     return (
-        <div>   
+        <div>     
                 <Modal 
                  centered
                  ></Modal>
                 <Modal.Dialog>
-                    <Modal.Header>
-                        <Modal.Title>Register</Modal.Title>
+                    <Modal.Header>                 
+                        <Modal.Title>Register and Be A Unicorn</Modal.Title>
+                        <img src={unicorn} />
                     </Modal.Header>
 
                     <Modal.Body>

@@ -5,6 +5,7 @@ import Form from 'react-bootstrap/Form'
 import './LoginModal.css'
 
 
+
 function openLoginModal() {
 
     return (
@@ -14,7 +15,7 @@ function openLoginModal() {
                  ></Modal>
                 <Modal.Dialog>
                     <Modal.Header>
-                        <Modal.Title>Login</Modal.Title>
+                        <Modal.Title>Login</Modal.Title> 
                     </Modal.Header>
 
                     <Modal.Body>
